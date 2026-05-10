@@ -1,0 +1,9 @@
+- name: app1-mumbai
+  region: mumbai
+  cluster: in-cluster
+  namespace: app1-mumbai-ns
+
+- name: app1-nvirginia
+  region: nvirginia
+  cluster: jeanseconduser@testapp1.us-east-1.eksctl.io
+  namespace: app1-nvirginia-ns
